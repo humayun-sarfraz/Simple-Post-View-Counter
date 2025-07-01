@@ -28,3 +28,15 @@ https://github.com/humayun-sarfraz
 ```html
 <!-- In post content -->
 <p>This post has been viewed: [spvc_views]</p>
+
+<!-- In a PHP template -->
+echo do_shortcode( '[spvc_views]' );
+
+Changelog
+1.0.0
+
+Initial release: counting views and shortcode display.
+
+License
+
+GPL v2 or later — see LICENSE.
